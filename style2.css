@@ -1,0 +1,21 @@
+header {
+    padding: 25px;
+    text-align: center;
+    font-size: 300%;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+ol {
+    text-align: center;
+}
+ul {
+    text-align: center;
+}
