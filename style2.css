@@ -1,21 +1,45 @@
 header {
-    padding: 25px;
+    
     text-align: center;
     font-size: 300%;
-    border-color: rgb(0, 0, 0);
+    border-color: #333333;
     border-style: solid;
+    float: center;
     
 }
 
 body {
     background-color: rgb(255, 255, 255);
-    text-align: center;
+    
+    font-family: "Georgia", "Times New Roman", serif;
     margin: 0;
     padding: 0;
 }
-ol {
-    text-align: center;
+h1{
+    color: #000000;
+    font-size: 28px;
 }
-ul {
-    text-align: center;
+
+#container {
+    width: 1024px;
+    margin: 0 auto;
+}
+#section1 , #section2 {
+    float: left;
+}
+
+#section3 {
+    float: right;
+}
+#section1 {
+    width: 300px;
+    background-color: rgb(255, 152, 152)
+}
+#section2 {
+    width: 350px;
+    background-color: rgb(131, 247, 131)
+}
+#section3 {
+    width: 425px;
+    background-color: rgb(147, 194, 255)
 }
