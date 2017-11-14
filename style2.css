@@ -4,7 +4,9 @@ header {
     font-size: 300%;
     border-color: #333333;
     border-style: solid;
+    background-color: rgb(182, 148, 187);
     float: center;
+    margin: 0px 300px 0px 300px;
     
 }
 
@@ -15,14 +17,17 @@ body {
     margin: 0;
     padding: 0;
 }
-h1{
+h1, h2{
     color: #000000;
-    font-size: 28px;
+    font-size: 14px;
+    text-align: center;
 }
 
 #container {
     width: 1024px;
-    margin: 0 auto;
+    height: 400px;
+    
+    
 }
 #section1 , #section2 {
     float: left;
@@ -32,14 +37,21 @@ h1{
     float: right;
 }
 #section1 {
-    width: 300px;
-    background-color: rgb(255, 152, 152)
+    width: 325px;
+    height: 400px;
+    background-color: rgb(255, 152, 152);
+    text-align: center;
 }
 #section2 {
-    width: 350px;
-    background-color: rgb(131, 247, 131)
+    width: 425px;
+    height: 400px;
+    background-color: rgb(131, 247, 131);
+    text-align: center;
+    
 }
 #section3 {
-    width: 425px;
-    background-color: rgb(147, 194, 255)
+    width: 326px;
+    height: 400px;
+    background-color: rgb(147, 194, 255);
+    
 }
